@@ -1,1 +1,20 @@
 
+{
+  "name": "CineCastellano",
+  "version": "1.0.0",
+  "description": "Cine clásico y películas en castellano",
+  "author": "urrih97-lab",
+  "scrapers": [
+    {
+      "id": "cinecastellano-archivo",
+      "name": "CineCastellano Archivo",
+      "description": "Cine clásico y películas de archivo en español",
+      "version": "1.0.0",
+      "filename": "providers/archivo.js",
+      "supportedTypes": ["movie"],
+      "contentLanguage": ["es"],
+      "enabled": true
+    }
+  ]
+}
+
